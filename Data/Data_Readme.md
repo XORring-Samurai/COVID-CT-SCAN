@@ -8,6 +8,8 @@ is infected by SARS-CoV-2 through the analysis of his/her CT scans. <br>
 The Second one is a smaller dataset, as compared to the one mentioned above. It consists of 349 CT-Scans, of COVID positive patients and 396 CT-Scans of non-infected patients. These two datasets
 are by-far the two largest CT-Scan datasets available. <br>
 
+Thus, there are overall <b> 1601 </b> CT-scans of COVID Positive patients and <b> 1626 </b> CT-Scans of COVID Negative patients. <br>
+
 Further the CT-Scan images are resized into 3 categories:
 <ol>
   1. (32 X 32) Images <br>
