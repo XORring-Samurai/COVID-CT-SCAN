@@ -1,5 +1,5 @@
 # COVID-CT-SCAN
-This Repository consists of a Deep-learning model that can be used to detect whether a person has been infected by COVID-19 or not, by examing the CT-Scan of the person.
+This Repository consists of a Deep-learning model that can be used to detect whether a person has been infected by COVID-19 or not, by examining the CT-Scan of the person.
 
 <hr>
 <h3> About the Data </h3>
