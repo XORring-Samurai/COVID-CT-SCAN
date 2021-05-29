@@ -140,6 +140,7 @@ Image Augmentation was also applied onto the data. Also when an additional ConvB
 
 <h3> Results and Drawbacks </h3>
 Over several runs from scratch, the test accuracy varied from 90% to 93.60%. These variations occur due to random initializations of the trainable parameters. <br><br>
+With Image Augmentation, this accuracy improved to 93.80%. <br><br>
 The most major drawback is, that the dataset though a combination of 2 datasets is still quite small. Hence the model may not be able to generalize well over CT-Scans of people from other parts of the world. If a larger dataset is used, then that would definitely improve the model performance.
 <hr>
 
