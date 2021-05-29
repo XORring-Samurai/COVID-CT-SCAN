@@ -24,7 +24,7 @@ Then the obtained output of these layers is flattened and fed to two fully conne
 
 <b> Why Dropouts? </b> Because they add a regularizing effect to the model and reduce overfiiting. When this model was trained without dropouts, it led to roughly 10% accuracy difference between training accuracy and validation accuracy. But with dropouts, this difference was reduced to 4%. <br><br>
 
-The Adam Optimizer with a standard learning rate of 1e-3 has been used while training. The loss function used is Binary Crossentropy. For more implementation details, refer to 'model.ipynb'
+The Adam Optimizer with a standard learning rate of 1e-3 has been used while training. The loss function used is Binary Crossentropy. For more implementation details, refer to 'model.ipynb'. This model gave the best accruacy of 93.60%.
 
 <hr>
 
@@ -133,6 +133,9 @@ The Dataset consists of images of different sizes. The model has been trained an
     </td>
     
 </table>
+<hr>
+<h3> Image Augmentation </h3>
+Image Augmentation was also applied onto the data. Also when an additional ConvBlock and an additional dense layer were added along with image augmentation. With the number of epochs begin 40, the best accuracy came out to be 93.80%.
 <hr>
 
 <h3> Results and Drawbacks </h3>
