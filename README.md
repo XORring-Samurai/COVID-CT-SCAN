@@ -135,7 +135,9 @@ The Dataset consists of images of different sizes. The model has been trained an
 </table>
 <hr>
 <h3> Image Augmentation </h3>
-Image Augmentation was also applied onto the data. Also when an additional ConvBlock and an additional dense layer were added along with image augmentation. With the number of epochs begin 40, the best accuracy came out to be 93.80%.
+Image Augmentation was also applied onto the data. Also when an additional ConvBlock and an additional dense layer were added along with image augmentation. With the number of epochs begin 40, the best accuracy came out to be 93.80%. <br><br>
+
+<b> Why the number of epochs is chosen to be 40? </b> Because, the training accuracy approached 1, after 40 epochs.
 <hr>
 
 <h3> Results and Drawbacks </h3>
